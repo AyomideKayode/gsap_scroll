@@ -113,3 +113,57 @@ i {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
+/*====================*/
+/*  2. About Style    */
+/*====================*/
+.about {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #a9774e, #864831, #402014);
+  border: 2px solid red;
+}
+
+.about_left,
+.about_right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vw;
+  width: 50%;
+  height: 100%;
+}
+
+.about_left img {
+  margin-top: 45vh;
+  width: 90%;
+  transform: rotateX(50deg);
+}
+
+.about_right h1 {
+  font-size: 5vw;
+  color: #fff;
+}
+
+.about_right p {
+  font-size: 1vw;
+  color: #fff;
+  width: 80%;
+}
+
+/*====================*/
+/*  3. Product Style     */
+/*====================*/
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.product img {
+  width: 100%;
+  height: 100%;
+}
